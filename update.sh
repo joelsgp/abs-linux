@@ -1,4 +1,4 @@
 #!/bin/bash
-rm -rf linux
+rm -rfv linux
 asp update linux
 asp export linux

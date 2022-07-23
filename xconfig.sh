@@ -1,2 +1,2 @@
 #!/bin/bash
-cd src/archlinux-linux && make xconfig &
+make --directory=src/archlinux-linux xconfig &
