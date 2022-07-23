@@ -51,14 +51,15 @@ prepare() {
 
   echo "Setting config..."
   cp ../config .config
-  #make olddefconfig
+  make olddefconfig
 
   #make nconfig     # new CLI menu for configuration
   #make menuconfig # CLI menu for configuration
   #make xconfig    # X-based configuration
   #make oldconfig  # using old config from previous kernel version
   # ... or manually edit .config
-  make prepare
+  #make prepare
+
   diff -u ../config .config || :
 
   make -s kernelrelease > version
