@@ -1,4 +1,4 @@
-*
-!.gitignore
-!config
-!PKGBUILD
+archlinux-linux/
+keys/
+src/
+config.old
