@@ -1,4 +1,6 @@
 archlinux-linux/
 keys/
+pkg/
 src/
 config.old
+*.pkg.tar.zst
