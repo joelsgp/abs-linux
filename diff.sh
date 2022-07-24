@@ -1,3 +1,3 @@
 #!/bin/bash
-diff PKGBUILD linux/PKGBUILD | bat
-diff config linux/config | bat
+diff linux/PKGBUILD PKGBUILD | bat
+diff linux/config config | bat
